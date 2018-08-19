@@ -16,3 +16,5 @@ sudo su -
 ifconfig -a
 
 
+# disable mysql boot autostart
+sudo systemctl disable mysql
